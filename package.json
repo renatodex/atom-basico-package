@@ -3,7 +3,7 @@
   "main": "./lib/atom-basico-package",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "activationEvents": ["atom-basico-package:toggle"],
+  "activationEvents": ["atom-basico-package:email-add-header"],
   "repository": "https://github.com/atom/atom-basico-package",
   "license": "MIT",
   "engines": {

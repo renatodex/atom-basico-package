@@ -1,16 +1,6 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable atom-basico-package': 'atom-basico-package:toggle'
-
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'atom-basico-package'
-      'submenu': [
-        { 'label': 'Toggle', 'command': 'atom-basico-package:toggle' }
-      ]
-    ]
-  }
-]
+    'basico.com - email':
+        'Add Email Header': 'atom-basico-package:email-add-header'
+        'Add Email Footer': 'atom-basico-package:email-add-footer'
