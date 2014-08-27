@@ -1,0 +1,14 @@
+{
+  "name": "atom-basico-package",
+  "main": "./lib/atom-basico-package",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["atom-basico-package:toggle"],
+  "repository": "https://github.com/atom/atom-basico-package",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
